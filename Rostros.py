@@ -75,7 +75,7 @@ while True:
             # Dibujamos el rectangulo
             cv2.rectangle(frame, (xmin, ymin), (xmax, ymax), (0,0,255), 2)
             # Texto que vamos a mostrar
-            label = "ROSTRO DETETADO: %.4f" % conf_detect
+            label = "ROSTRO DETECTADO: %.4f" % conf_detect
             # Tamaño del fondo del label
             label_size, base_line = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX, 0.5, 1)
             # Colocamos fondo al texto
